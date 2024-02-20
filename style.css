@@ -132,6 +132,17 @@ button[disabled] {
 
 @media (max-width: 500px) {
   .btn {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
+
+/* experimental for the challenge */
+
+.card-options {
+  display: flex;
+  justify-content: space-around; /* Optional: Adds space between the divs */
+ }
+
+ .card-options h3 {
+  font-size: 0.8 rem;
+   }
