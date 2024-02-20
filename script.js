@@ -1,6 +1,4 @@
 // Characterset to be included in the password
-
-
 const pool = {
   upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   lowerCase: "abcdefghijklmnopqrstuvwxyz",
@@ -34,23 +32,22 @@ function getPasswordOptions() {
 }
 
 // Function for getting a random element from an array
-function getRandom(arr) {
-  const index = Math.floor(Math.random() * arr.length);
-  return arr[index];
+  function getRandom(arr) {
+    const index = Math.floor(Math.random() * arr.length);
+    return arr[index];
 }
 // Function to generate password with user input
-function generatePassword() {
-  // Call getPasswordOptions and assign the returned object to options
+  function generatePassword() {
+  
+// Call getPasswordOptions and assign the returned object to options
   const options = getPasswordOptions();
 
-  // Check if options are valid
+// Check if options are valid
   if (!options) return null;
 
-  // Destructure passwordLength and characterSets from the options object
-  const { passwordLength, characterSets } = options;
-
-  let password = '';
-
+// Destructure passwordLength and characterSets from the options object
+    const { passwordLength, characterSets } = options;
+    let password = '';
   for (let i =  0; i < passwordLength; i++) {
     const randomCategory = getRandom(characterSets);
     password += getRandom(randomCategory);
@@ -58,17 +55,17 @@ function generatePassword() {
   return password;
 }
 
-// Get references to the #generate element
-var generateBtn = document.querySelector('#generate');
+// Get references to the generate element
+  var generateBtn = document.querySelector('#generate');
 
 // Add event listener to generate button
-generateBtn.addEventListener('click', writePassword);
+  generateBtn.addEventListener('click', writePassword);
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector('#password');
-  if (password) {passwordText.value = password;}
-  else {passwordText.value = "";}
+// Write password to the password field
+  function writePassword() {
+    var password = generatePassword();
+    var passwordText = document.querySelector('#password');
+    if (password) {passwordText.value = password;}
+    else {passwordText.value = "";}
 }
 
