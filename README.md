@@ -21,7 +21,7 @@
     <br />
     <a href="https://github.com/oIdioN/JavaScript-Password-Generator-challenge">Repo page</a>
     ·
-    <a href="https://github.com/github_username/repo_name">Deployed Application</a>
+    <a href="https://oidion.github.io/JavaScript-Password-Generator-challenge">Deployed Application</a>
     ·
     <a href="https://github.com/oIdioN/JavaScript-Password-Generator-challenge/issues">Report Bug</a>
     ·
