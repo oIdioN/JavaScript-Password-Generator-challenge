@@ -1,14 +1,11 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<div align="center">
-  
+ 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -191,6 +188,25 @@ Distributed under the MIT License.
 * []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/beckpull/readme-generator.svg?style=for-the-badge
+[contributors-url]: https://github.com/beckpull/readme-generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/beckpull/readme-generator.svg?style=for-the-badge
+[forks-url]: https://github.com/beckpull/readme-generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/beckpull/readme-generator.svg?style=for-the-badge
+[stars-url]: https://github.com/beckpull/readme-generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/beckpull/readme-generator.svg?style=for-the-badge
+[issues-url]: https://github.com/beckpull/readme-generator/issues
+[license-shield]: https://img.shields.io/github/license/beckpull/readme-generator.svg?style=for-the-badge
+[license-url]: https://github.com/beckpull/readme-generator/blob/main/LICENSE
+[product-screenshot]: images/screenshot.png
+[NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/en
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
+[Bulma]: https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white
 
 
 ---
