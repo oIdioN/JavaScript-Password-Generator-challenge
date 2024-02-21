@@ -40,7 +40,7 @@
    This challenge is about a Password Generator app features dynamically updated HTML and CSS, all powered by JavaScript. <br> App has to have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. <br> The password also includes special characters.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">Repo page</a>
+    <a href="https://github.com/oIdioN/JavaScript-Password-Generator-challenge">Repo page</a>
     ·
     <a href="https://github.com/github_username/repo_name">Deployed Application</a>
     ·
