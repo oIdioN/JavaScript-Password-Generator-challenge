@@ -196,7 +196,7 @@ Distributed under the MIT License.
 [forks-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks
 [stars-shield]: https://img.shields.io/github/stars/beckpull/readme-generator.svg?style=for-the-badge
 [stars-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/stargazers
-[issues-shield]: https://img.shields.io/github/issues/beckpull/readme-generator.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/oIdioN/readme-generator.svg?style=for-the-badge
 [issues-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/issues
 [license-shield]: https://img.shields.io/github/license/beckpull/readme-generator.svg?style=for-the-badge
 [license-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge?tab=MIT-1-ov-file#readme
