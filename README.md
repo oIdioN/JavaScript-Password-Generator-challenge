@@ -190,7 +190,7 @@ Distributed under the MIT License.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/beckpull/readme-generator.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/oIdioN/readme-generator.svg?style=for-the-badge
 [contributors-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/beckpull/readme-generator.svg?style=for-the-badge
 [forks-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks
