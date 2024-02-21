@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/oIdioN/JavaScript-Password-Generator-challenge">
     <img src="src/passwordapp.png" alt="Logo" width="220" height="180">
   </a>
 
