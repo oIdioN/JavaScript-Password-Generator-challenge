@@ -72,7 +72,7 @@ The screenshot of the app.
 
 ### Built With
 
-![Static Badge](https://img.shields.io/badge/HTML-34%25-red?style=plastic) ![Static Badge](https://img.shields.io/badge/CSS-34%25-brightgreen?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-32%25-orange?style=plastic)
+![Static Badge](https://img.shields.io/badge/HTML-34%25-red?style=plastic) ![Static Badge](https://img.shields.io/badge/CSS-32%25-brightgreen?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-34%25-orange?style=plastic)
 
 ## Getting Started
 
