@@ -18,8 +18,8 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Contributors][contributors-shield]][[contributors-url](https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks)]
+[![Forks][forks-shield]][[forks-url](https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks)]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
