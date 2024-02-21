@@ -1,6 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
- 
+<div align="center"> 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -192,15 +191,15 @@ Distributed under the MIT License.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/beckpull/readme-generator.svg?style=for-the-badge
-[contributors-url]: https://github.com/beckpull/readme-generator/graphs/contributors
+[contributors-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/beckpull/readme-generator.svg?style=for-the-badge
-[forks-url]: https://github.com/beckpull/readme-generator/network/members
+[forks-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks
 [stars-shield]: https://img.shields.io/github/stars/beckpull/readme-generator.svg?style=for-the-badge
-[stars-url]: https://github.com/beckpull/readme-generator/stargazers
+[stars-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/stargazers
 [issues-shield]: https://img.shields.io/github/issues/beckpull/readme-generator.svg?style=for-the-badge
-[issues-url]: https://github.com/beckpull/readme-generator/issues
+[issues-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/issues
 [license-shield]: https://img.shields.io/github/license/beckpull/readme-generator.svg?style=for-the-badge
-[license-url]: https://github.com/beckpull/readme-generator/blob/main/LICENSE
+[license-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge?tab=MIT-1-ov-file#readme
 [product-screenshot]: images/screenshot.png
 [NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
@@ -211,3 +210,4 @@ Distributed under the MIT License.
 
 ---
 (c) 2024 oIdioN. All rights reserved.
+</div>
