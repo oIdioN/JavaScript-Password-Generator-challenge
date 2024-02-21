@@ -1,41 +1,106 @@
-# JavaScript-Password-Generator-challenge
-This challenge is about a Password Generator app features dynamically updated HTML and CSS, all powered by JavaScript. App has to have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.  The password also includes special characters.
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-## Characthers ##
 
-As the charachterset consist several data types, the best is if these treated as strings, therefore the charachterpool rewritten as here:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-```
-const pool = {
-  upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-  lowerCase: "abcdefghijklmnopqrstuvwxyz",
-  numbers: "0123456789",
-  special: "!@#$%^&*()_+~\\`|}{[]:;?><,./-="
-}
-```
----
 
 
------
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="src/passwordapp.png" alt="Logo" width="220" height="180">
+  </a>
+
+<h3 align="center">Javascript Password Generator</h3>
+
+  <p align="center">
+   This challenge is about a Password Generator app features dynamically updated HTML and CSS, all powered by JavaScript. <br> App has to have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes. <br> The password also includes special characters.
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">Repo page</a>
+    ·
+    <a href="https://github.com/github_username/repo_name">Deployed Application</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+  </p>
+</div>
 
 
-ORIGINAL README
 
-# Module 5 Challenge: Password Generator
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  
+  </ol>
+</details>
 
-## Overview
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Instructions
+![Site](src/passwordapp.png "Site")
 
-The following image shows the web application's appearance and functionality:
+The screenshot of the app.
 
-![password generator demo](./assets/05-javascript-challenge-demo.png)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Built With
+
+![Static Badge](https://img.shields.io/badge/HTML-37%25-red?style=plastic) ![Static Badge](https://img.shields.io/badge/CSS-37%25-brightgreen?style=plastic) ![Static Badge](https://img.shields.io/badge/JavaScript-37%25-orange?style=plastic)
+
+## Getting Started
+
+This readme is built of an example of the "Best Readme Template" found in the wild and not the final version thereof.
+https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md
+
+### Prerequisites
 
 * Generate a password when the button is clicked
   * Present a series of prompts for password criteria
@@ -49,55 +114,101 @@ The following image shows the web application's appearance and functionality:
   * Code should validate for each input and at least one character type should be selected
   * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
-## Grading Requirements
+### Installation
 
-This challenge is graded based on the following criteria: 
+As the charachterset consist several data types, the best is if these treated as strings, therefore the charachterpool rewritten as here:
 
-### Technical Acceptance Criteria: 40%
+```
+const pool = {
+  upperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  lowerCase: "abcdefghijklmnopqrstuvwxyz",
+  numbers: "0123456789",
+  symbols: "!@#$%^&*()_+~\\`|}{[]:;?><,./-="
+}
+```
+Special characters based on [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
 
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Review
 
-You are required to submit the following for review:
+<!-- USAGE EXAMPLES -->
+## Usage
 
-* The URL of the deployed application.
+The app can be used to generate a password with the length of between 8 and 128 characters.
+Usage of the character options are not optional, at least one character type must be used as shown below:
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![Site](src/charopt.png "Site")
+
+
+Also valid for the length, that not less than 8 or more than 128 characters can be chosen:
+
+![Site](src/minnum.png "Site")
+
+
+
+![Site](src/maxnum.png "Site")
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Password length declared
+- [ ] Charachters added
+- [ ] Checkboxes implemented
+
+Future releases:
+- [ ] Password length field will be changed to a slider
+
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []() In order to build the app, the internet sources has been used and altered, such as lines of code from StackoverFlow.
+* []() 
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ---
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+(c) 2024 oIdioN. All rights reserved.

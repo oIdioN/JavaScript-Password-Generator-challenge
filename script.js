@@ -5,6 +5,7 @@ const pool = {
   numbers: "0123456789",
   symbols: "!@#$%^&*()_+~\\`|}{[]:;?><,./-="
 }
+// Password length and character options
 function getPasswordOptions() {
   const passwordLength = document.querySelector("#length").value;
   const lowerCase = document.querySelector("#lowerCase").checked;
