@@ -190,17 +190,17 @@ Distributed under the MIT License.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/oIdioN/readme-generator.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
 [contributors-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/beckpull/readme-generator.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
 [forks-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/forks
-[stars-shield]: https://img.shields.io/github/stars/beckpull/readme-generator.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
 [stars-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/stargazers
 [issues-shield]: https://img.shields.io/github/issues/oIdioN/readme-generator.svg?style=for-the-badge
 [issues-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge/issues
-[license-shield]: https://img.shields.io/github/license/beckpull/readme-generator.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/oIdioN/JavaScript-Password-Generator-challenge.svg?style=for-the-badge
 [license-url]: https://github.com/oIdioN/JavaScript-Password-Generator-challenge?tab=MIT-1-ov-file#readme
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/passwordapp.png
 [NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
