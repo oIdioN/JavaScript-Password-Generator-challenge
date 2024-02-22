@@ -5,9 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-![Static Badge](https://img.shields.io/badge/HTML-34%25-red?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/css-32%25-brigthgreen?style=for-the-badge)
-![Static Badge](https://img.shields.io/badge/javascript-34%25-orange?style=for-the-badge)
+
 
 
 <!-- PROJECT LOGO -->
